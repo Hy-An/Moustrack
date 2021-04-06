@@ -1,0 +1,19 @@
+.list-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-size: 24px;
+  li {
+    list-style: none;
+  }
+}
+
+.move-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  li {
+    list-style: none;
+  }
+}

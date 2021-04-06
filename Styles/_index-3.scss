@@ -1,0 +1,39 @@
+.list-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $--yellow;
+  li {
+    list-style: none;
+  }
+}
+.font-3A {
+  font-weight: 500px;
+  font-size: 40px;
+  max-width: 300px;
+}
+
+.font-3B {
+  font-size: 20px;
+  max-width: 320px;
+}
+
+.button2 {
+  background-color: $--gray;
+  border: transparent;
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button3 {
+  background-color: $--yellow;
+  border: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}

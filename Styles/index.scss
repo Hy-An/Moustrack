@@ -1,0 +1,58 @@
+@import "variables";
+@import "index-2";
+@import "index-3";
+@import "index-4";
+@import "index-5";
+
+.header {
+  background-color: $--yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color: $--gray;
+}
+
+.border {
+  border-style: inset;
+  border-color: $--yellow;
+}
+
+.fondo1 {
+  background-image: url("../Assets/bghero.webp");
+}
+
+.nav-items {
+  display: flex;
+  gap: 5px;
+  padding: 0 20px;
+  li {
+    list-style: none;
+  }
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  li {
+    list-style: none;
+  }
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+.list-5 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  li {
+    list-style: none;
+    max-width: 345px;
+  }
+}
+
+.move-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  li {
+    list-style: none;
+  }
+}

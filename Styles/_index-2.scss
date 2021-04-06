@@ -1,0 +1,48 @@
+.list-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  li {
+    list-style: none;
+  }
+}
+
+.title-2 {
+  font-size: 40px;
+  max-width: 500px;
+}
+
+.logo-size {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  display: flex;
+  justify-content: flex-end;
+}
+.button1 {
+  background-color: $--yellow;
+  border: transparent;
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.block-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-2b {
+  max-width: 345px;
+}
