@@ -35,7 +35,6 @@
 
 .button1 {
   background-color: #ffc107;
-  border: transparent;
   border-radius: 3px;
   padding: 15px 32px;
   text-align: center;
@@ -102,7 +101,6 @@
 
 .button2 {
   background-color: #6c757d;
-  border: transparent;
   border-radius: 3px;
   padding: 15px 32px;
   text-align: center;
@@ -112,7 +110,6 @@
 
 .button3 {
   background-color: #ffc107;
-  border: transparent;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
