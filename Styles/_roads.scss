@@ -1,0 +1,33 @@
+.title-road {
+  font-size: 40px;
+}
+
+.text-road {
+  font-size: 20px;
+}
+
+.gray-button {
+  background-color: $--gray;
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.yellow-box {
+  background-color: $--yellow;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  font-size: 16px;
+}
+
+.roads-background {
+  background-image: url("../Assets/bghero2.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
+}

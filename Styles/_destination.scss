@@ -1,0 +1,45 @@
+.list-destin {
+  @include position(flex, center, center);
+  width: 300px;
+  font-size: 24px;
+  li {
+    list-style: none;
+  }
+}
+
+.move-left {
+  @include position(flex, center, flex-start);
+  li {
+    list-style: none;
+  }
+}
+
+.destination-background {
+  background-image: url("../Assets/bghero3.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 1200px;
+  background-size: cover;
+}
+
+.america-background {
+  background-image: url("../Assets/north-a.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}
+.s-america-background {
+  background-image: url("../Assets/south-a.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}
+.europa-background {
+  background-image: url("../Assets/euro.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}

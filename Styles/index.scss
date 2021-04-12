@@ -1,0 +1,59 @@
+@mixin position($display, $align-items, $justify-content) {
+  display: $display;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+@import "variables";
+@import "begins";
+@import "roads";
+@import "destination";
+@import "credits";
+
+.header {
+  @include position(flex, center, center);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: $--yellow;
+  height: 100px;
+  padding: 0 10px;
+}
+
+body {
+  background-color: $--gray;
+}
+
+.item {
+  @include position(flex, center, space-between);
+  width: 100%;
+  flex-direction: row;
+}
+
+.border {
+  border-style: inset;
+  border-color: $--yellow;
+}
+
+.nav-items {
+  display: flex;
+  gap: 5px;
+  padding: 0 20px;
+  li {
+    list-style: none;
+  }
+}
+
+.align {
+  @include position(flex, center, center);
+  li {
+    list-style: none;
+  }
+}
+
+.portfolio {
+  @include position(flex, center, flex-end);
+  padding: 0 30px;
+  li {
+    list-style: none;
+  }
+}
