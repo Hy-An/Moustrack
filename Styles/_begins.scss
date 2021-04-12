@@ -1,27 +1,32 @@
-.list-2 {
+.list-begins {
+  @include position(flex, center, space-around);
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   li {
-    list-style: none;
+    list-style-type: none;
   }
 }
 
-.title-2 {
+.title-begins {
   font-size: 40px;
   max-width: 500px;
 }
 
+.begins-background {
+  background-image: url("../Assets/bghero.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
+}
+
 .logo-size {
+  @include position(flex, flex-start, flex-end);
   img {
     width: 150px;
     height: 150px;
   }
-  display: flex;
-  justify-content: flex-end;
 }
-.button1 {
+.yellow-button {
   background-color: $--yellow;
   border-radius: 3px;
   padding: 15px 32px;
@@ -30,18 +35,14 @@
   font-size: 16px;
 }
 
-.block-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.block-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title-2b {
+.text-begins {
   max-width: 345px;
+}
+
+.padding-begins-left {
+  padding: 0 20px;
+}
+
+.padding-begins-right {
+  padding: 0 0px;
 }

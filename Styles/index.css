@@ -1,5 +1,4 @@
-.list-2 {
-  width: 100%;
+.list-begins {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,21 +7,33 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 100%;
 }
 
-.list-2 li {
-  list-style: none;
+.list-begins li {
+  list-style-type: none;
 }
 
-.title-2 {
+.title-begins {
   font-size: 40px;
   max-width: 500px;
+}
+
+.begins-background {
+  background-image: url("../Assets/bghero.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
 }
 
 .logo-size {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -33,7 +44,7 @@
   height: 150px;
 }
 
-.button1 {
+.yellow-button {
   background-color: #ffc107;
   border-radius: 3px;
   padding: 15px 32px;
@@ -42,64 +53,27 @@
   font-size: 16px;
 }
 
-.block-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.block-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.title-2b {
+.text-begins {
   max-width: 345px;
 }
 
-.list-3 {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #ffc107;
+.padding-begins-left {
+  padding: 0 20px;
 }
 
-.list-3 li {
-  list-style: none;
+.padding-begins-right {
+  padding: 0 0px;
 }
 
-.font-3A {
-  font-weight: 500px;
+.title-road {
   font-size: 40px;
-  max-width: 300px;
 }
 
-.font-3B {
+.text-road {
   font-size: 20px;
-  max-width: 320px;
 }
 
-.button2 {
+.gray-button {
   background-color: #6c757d;
   border-radius: 3px;
   padding: 15px 32px;
@@ -108,15 +82,24 @@
   font-size: 16px;
 }
 
-.button3 {
+.yellow-box {
   background-color: #ffc107;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
+  width: 70%;
   font-size: 16px;
 }
 
-.list-4 {
+.roads-background {
+  background-image: url("../Assets/bghero2.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
+}
+
+.list-destin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +113,7 @@
   font-size: 24px;
 }
 
-.list-4 li {
+.list-destin li {
   list-style: none;
 }
 
@@ -150,17 +133,51 @@
   list-style: none;
 }
 
-.list-5 {
-  width: 100%;
+.destination-background {
+  background-image: url("../Assets/bghero3.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 1200px;
+  background-size: cover;
+}
+
+.america-background {
+  background-image: url("../Assets/north-a.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}
+
+.s-america-background {
+  background-image: url("../Assets/south-a.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}
+
+.europa-background {
+  background-image: url("../Assets/euro.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 300px;
+  background-size: 90%;
+}
+
+.list-credits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.list-5 li {
+.list-credits li {
   list-style: none;
   max-width: 345px;
 }
@@ -182,8 +199,15 @@
   list-style: none;
 }
 
+.credits-background {
+  background-image: url("../Assets/bghero.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
+}
+
 .header {
-  background-color: #ffc107;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,37 +217,38 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 10px;
-}
-
-.item {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #ffc107;
+  height: 100px;
+  padding: 0 10px;
 }
 
 body {
   background-color: #6c757d;
 }
 
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .border {
   border-style: inset;
   border-color: #ffc107;
-}
-
-.fondo1 {
-  background-image: url("../Assets/bghero.webp");
 }
 
 .nav-items {
@@ -238,22 +263,6 @@ body {
   list-style: none;
 }
 
-.portfolio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.portfolio li {
-  list-style: none;
-}
-
 .align {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,5 +273,26 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.align li {
+  list-style: none;
+}
+
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 30px;
+}
+
+.portfolio li {
+  list-style: none;
 }
 /*# sourceMappingURL=index.css.map */

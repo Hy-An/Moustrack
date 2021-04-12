@@ -1,25 +1,12 @@
-.list-3 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $--yellow;
-  li {
-    list-style: none;
-  }
-}
-.font-3A {
-  font-weight: 500px;
+.title-road {
   font-size: 40px;
-  max-width: 300px;
 }
 
-.font-3B {
+.text-road {
   font-size: 20px;
-  max-width: 320px;
 }
 
-.button2 {
+.gray-button {
   background-color: $--gray;
   border-radius: 3px;
   padding: 15px 32px;
@@ -28,10 +15,19 @@
   font-size: 16px;
 }
 
-.button3 {
+.yellow-box {
   background-color: $--yellow;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
+  width: 70%;
   font-size: 16px;
+}
+
+.roads-background {
+  background-image: url("../Assets/bghero2.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
 }

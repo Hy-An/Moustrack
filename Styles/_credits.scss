@@ -1,7 +1,5 @@
-.list-5 {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+.list-credits {
+  @include position(flex, flex-start, flex-end);
   li {
     list-style: none;
     max-width: 345px;
@@ -9,11 +7,17 @@
 }
 
 .move-right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  @include position(flex, center, flex-end);
   padding: 0 30px;
   li {
     list-style: none;
   }
+}
+
+.credits-background {
+  background-image: url("../Assets/bghero.webp");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 600px;
+  background-size: cover;
 }
