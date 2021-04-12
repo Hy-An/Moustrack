@@ -22,7 +22,7 @@
 .begins-background {
   background-image: url("../Assets/bghero.webp");
   background-repeat: no-repeat;
-  background-position: 0%;
+  background-position: center;
   height: 600px;
   background-size: cover;
 }
