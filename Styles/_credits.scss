@@ -1,9 +1,14 @@
 .list-credits {
-  @include position(flex, flex-start, flex-end);
+  @include position(flex, flex-end, flex-end);
+  flex-direction: column;
   li {
     list-style: none;
     max-width: 345px;
   }
+}
+
+.spacing-credits {
+  margin-bottom: 30px;
 }
 
 .move-right {
@@ -20,4 +25,8 @@
   background-position: 0%;
   height: 600px;
   background-size: cover;
+}
+
+.margin {
+  margin-right: 30px;
 }
