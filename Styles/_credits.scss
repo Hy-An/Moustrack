@@ -9,8 +9,12 @@
 
 .spacing-credits {
   margin-bottom: 30px;
+  color: $--white;
 }
 
+.credit-end {
+  color: $--white;
+}
 .move-right {
   @include position(flex, center, flex-end);
   padding: 0 30px;
@@ -23,7 +27,7 @@
   background-image: url("../Assets/bghero.webp");
   background-repeat: no-repeat;
   background-position: 0%;
-  height: 600px;
+  height: 90vh;
   background-size: cover;
 }
 
