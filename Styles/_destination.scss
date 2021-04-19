@@ -5,20 +5,27 @@
   li {
     list-style: none;
   }
+  margin: 50px 0;
 }
 
 .move-left {
-  @include position(flex, center, flex-start);
+  @include position(flex, flex-start, flex-start);
+  padding: 0 -30px;
   li {
     list-style: none;
   }
+}
+
+.destin-color {
+  color: $--white;
+  font-size: 40px;
 }
 
 .destination-background {
   background-image: url("../Assets/bghero3.webp");
   background-repeat: no-repeat;
   background-position: 0%;
-  height: 1200px;
+  height: 200vh;
   background-size: cover;
 }
 
@@ -28,6 +35,7 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
 }
 .s-america-background {
   background-image: url("../Assets/south-a.webp");
@@ -35,6 +43,7 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
 }
 .europa-background {
   background-image: url("../Assets/euro.webp");
@@ -42,4 +51,16 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
+}
+
+.column-align {
+  flex-direction: column;
+  li {
+    list-style: none;
+  }
+}
+
+.spacing {
+  margin: 50px 0;
 }

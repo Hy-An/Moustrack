@@ -16,14 +16,17 @@
 
 .title-begins {
   font-size: 40px;
+  font-weight: 300;
   max-width: 500px;
+  padding: 20px 0px;
+  color: #ffc107;
 }
 
 .begins-background {
   background-image: url("../Assets/bghero.webp");
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 100vh;
   background-size: cover;
 }
 
@@ -57,20 +60,13 @@
   max-width: 345px;
 }
 
-.padding-begins-left {
-  padding: 0 20px;
-}
-
-.padding-begins-right {
-  padding: 0 0px;
-}
-
 .title-road {
   font-size: 40px;
+  margin-bottom: 0.5rem;
 }
 
 .text-road {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .gray-button {
@@ -80,6 +76,7 @@
   text-align: center;
   display: inline-block;
   font-size: 16px;
+  color: #ffc107;
 }
 
 .yellow-box {
@@ -95,7 +92,7 @@
   background-image: url("../Assets/bghero2.webp");
   background-repeat: no-repeat;
   background-position: 0%;
-  height: 600px;
+  height: 100vh;
   background-size: cover;
 }
 
@@ -111,6 +108,7 @@
           justify-content: center;
   width: 300px;
   font-size: 24px;
+  margin: 50px 0;
 }
 
 .list-destin li {
@@ -121,23 +119,29 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  padding: 0 -30px;
 }
 
 .move-left li {
   list-style: none;
 }
 
+.destin-color {
+  color: #ffffff;
+  font-size: 40px;
+}
+
 .destination-background {
   background-image: url("../Assets/bghero3.webp");
   background-repeat: no-repeat;
   background-position: 0%;
-  height: 1200px;
+  height: 200vh;
   background-size: cover;
 }
 
@@ -147,6 +151,7 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
 }
 
 .s-america-background {
@@ -155,6 +160,7 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
 }
 
 .europa-background {
@@ -163,23 +169,52 @@
   background-position: 50%;
   height: 300px;
   background-size: 90%;
+  margin-bottom: 50px;
+}
+
+.column-align {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column-align li {
+  list-style: none;
+}
+
+.spacing {
+  margin: 50px 0;
 }
 
 .list-credits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .list-credits li {
   list-style: none;
   max-width: 345px;
+}
+
+.spacing-credits {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.credit-end {
+  color: #ffffff;
 }
 
 .move-right {
@@ -203,8 +238,12 @@
   background-image: url("../Assets/bghero.webp");
   background-repeat: no-repeat;
   background-position: 0%;
-  height: 600px;
+  height: 90vh;
   background-size: cover;
+}
+
+.margin {
+  margin-right: 30px;
 }
 
 .header {
